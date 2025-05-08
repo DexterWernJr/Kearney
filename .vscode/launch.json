@@ -1,17 +1,90 @@
-Youtube.com{
-    // Use IntelliSense to learn about possible attributes.
-    // Hover to view descriptions of existing attributes.
+{
+    "configurations": [
+        {
+            "name": "Attach to Edge",
+            "port": 9222,
+            "request": "attach",
+            "type": "msedge",
+            "webRoot": "${workspaceFolder}"
+        },
+        {
+            "name": "Attach to Edge",
+            "port": 9222,
+            "request": "attach",
+            "type": "msedge",
+            "webRoot": "${workspaceFolder}"
+        },
+        {
+            "name": "Launch Edge",
+            "request": "launch",
+            "type": "msedge",
+            "url": "http://localhost:8080",
+            "webRoot": "${workspaceFolder}"
+        },
+        {
+            "name": "Attach by Process ID",
+            "processId": "${command:PickProcess}",
+            "request": "attach",
+            "skipFiles": [
+                "<node_internals>/**"
+            ],
+            "type": "node"
+        },
+        {
+            "name": "Launch Chrome",
+            "request": "launch",
+            "type": "chrome",
+            "url": "http://localhost:8080",
+            "webRoot": "${workspaceFolder}"
+        },
+    {
+        "name": "Launch Chrome",
+        "request": "launch",
+        "type": "chrome",
+        "url": "http://localhost:8080",
+        "webRoot": "${workspaceFolder}"
+    }
+    ]
+}# Code Citations
+
+## License: GPL_2_0
+https://github.com/RomRaider/RomRaider/tree/090cac6cdb80f75279159b9d05fff0262cf694cc/docs/Building_RomRaider_VSCode.md
+
+```
+// Hover to view descriptions of existing attributes.
     // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
     "version": "0.2.0",
     "configurations": [
-        
-        Dexter
+        {
+            "type"
+```
+
+
+## License: unknown
+https://github.com/giovanton/WebApps/tree/244287cea53ed7674038c0a927cbebbff24acda8/GioServerPortal/src/app/administration/users/GioServerPortal.code-workspace
+
+```
+.0",
+    "configurations": [
         {
             "type": "chrome",
             "request": "launch",
             "name": "Launch Chrome against localhost",
             "url": "http://localhost:8080",
-            "webRoot": "${workspaceFolder}"
-        }
-    ]
-}
+            "webRoot":
+```
+
+
+## License: unknown
+https://github.com/daichangxin/blog/tree/f64d28812f41749228156eb17840f28d38ae85e6/source/_posts/debug-laya-with-vscode.md
+
+```
+information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "chrome",
+            "request": "launch",
+            "
+```
+
