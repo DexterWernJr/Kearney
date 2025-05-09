@@ -1,2 +1,12 @@
-hello STT
-STS
+{
+    "configurations": [
+    {
+        "name": "Attach to Edge",
+        "port": 9222,
+        "request": "attach",
+        "type": "msedge",
+        "webRoot": "${workspaceFolder}"
+    }
+    ]
+}hello STT
+
