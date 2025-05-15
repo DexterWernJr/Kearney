@@ -1,6 +1,15 @@
 {
     "configurations": [
         {
+            "name": "Attach",
+            "port": 9229,
+            "request": "attach",
+            "skipFiles": [
+                "<node_internals>/**"
+            ],
+            "type": "node"
+        },
+        {
             "name": "Attach to Edge",
             "port": 9222,
             "request": "attach",
@@ -55,6 +64,12 @@ https://github.com/RomRaider/RomRaider/tree/090cac6cdb80f75279159b9d05fff0262cf6
     // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
     "version": "0.2.0",
     "configurations": [
+        {
+            "version": "0.2.0",
+            "configurations": [],
+            "compounds": []
+        }
+
         {
             "type"
 ```
