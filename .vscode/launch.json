@@ -1,5 +1,30 @@
 {
     "configurations": [
+        {
+            "name": "Docker .NET Attach (Preview)",
+            "type": "docker",
+            "request": "attach",
+            "platform": "netCore",
+            "sourceFileMap": {
+                "/src": "${workspaceFolder}"
+            }
+        },
+
+        {
+            "args": [
+                "generator"
+            ],
+            "console": "integratedTerminal",
+            "internalConsoleOptions": "neverOpen",
+            "name": "Yeoman generator",
+            "program": "${workspaceFolder}/node_modules/yo/lib/cli.js",
+            "request": "launch",
+            "skipFiles": [
+                "<node_internals>/**"
+            ],
+            "type": "node"
+        },
+
     {
         "name": "Attach to Edge",
         "port": 9222,
