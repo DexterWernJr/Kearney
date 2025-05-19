@@ -85,7 +85,20 @@ USERNAME     {PASSWORD
             "request": "launch",
             "name": "Launch Chrome against localhost",
             "url": "http://localhost:8080",
-            "webRoot": "${workspaceFolder}"
-        }
-    ]
-}
+            "webRoot":
+```
+
+
+## License: unknown
+https://github.com/daichangxin/blog/tree/f64d28812f41749228156eb17840f28d38ae85e6/source/_posts/debug-laya-with-vscode.md
+
+```
+information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "chrome",
+            "request": "launch",
+            "
+```
+
