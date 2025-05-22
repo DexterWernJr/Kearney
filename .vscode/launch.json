@@ -1,6 +1,7 @@
 {
     "configurations": [
-        {
+        8
+     l   {
             "name": "Electron Main",
             "program": "${workspaceFolder}/main.js",
             "request": "launch",
