@@ -1,5 +1,9 @@
 {
     "configurations": [
+        to
+        netCore
+        msedge
+        main
         8
      l   {
             "name": "Electron Main",
