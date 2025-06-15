@@ -1,5 +1,36 @@
 {
     "configurations": [
+        {
+            "name": "Python Debugger: Current File with Arguments",
+            "type": "python",
+            "request": "launch",
+            "program": "",
+            "console": "integratedTerminal",
+            "args": "pickArgs"
+        },
+        {
+            "name": "Python: Flask",
+            "type": "python",
+            "request": "launch",
+            "module": "flask",
+            "env": {
+                "FLASK_APP": "app.py",
+                "FLASK_DEBUG": "1"
+            },3'. "internalConsoleOptions": "host": "localhost",
+            "args": [
+                "run",
+                "--no-debugger",
+                "--no-reload"
+            ],
+            "jinja": true
+        },
+        {
+            "name": "Python: Module",
+            "type": "python",
+            "request": "launch",
+            "module": "enter-your-module-name"
+        },
+
       \  { YOUTUBE},NET MORE.BETTER ÑETWORK
         to
         netCore
