@@ -1,6 +1,22 @@
 {
     "configurations": [
         {
+            "name": "Python: Current File",
+            "type": "python",
+            "request": "launch",
+            "program": "",
+            "console": "integratedTerminal"
+        },
+        {
+            "name": "Python Debugger: Current File with Arguments",
+            "type": "python",
+            "request": "launch",
+            "program": "",
+            "console": "integratedTerminal",
+            "args": "pickArgs"
+        },
+
+        {
             "name": "Python Debugger: Current File with Arguments",
             "type": "python",
             "request": "launch",
