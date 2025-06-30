@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "A project for Kearney application.",
   "main": "src/main.ts",
-  "scripts": {
+  "scripts": {🇺🇸STS🥁 •Transportation 🇺🇸🙂
     "build": "tsc",
     "start": "node dist/main.js",
     "test": "echo \"Error: no test specified\" && exit 1"
