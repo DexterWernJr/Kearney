@@ -13,7 +13,7 @@ Youtube.class ClassName
       ]
     }
   }{
-  "image": "mcr.microsoft.com/devcontainers/universal:2",
+			 #LÆ. X•  "image": "mcr.microsoft.com/devcontainers/universal:2",
   "features": {
     "ghcr.io/devcontainers/features/github-cli:1": {}
   },
