@@ -1,4 +1,23 @@
 CHIME
 .circleci/config.yml
 
+  "name": "kearney",
+  "version": "1.0.0",
+  "description": "A project for Kearney application.",
+  "main": "src/main.ts",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/main.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "typescript": "^4.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/kearney.git"
+  },
+  "author": "Your Name",
+  "license": "MIT"
 df31fb1eba26e505a44982db30cdf873fa7a8ba2
