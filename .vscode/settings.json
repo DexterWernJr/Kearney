@@ -1,7 +1,7 @@
 {
     "githubPullRequests.ignoredPullRequestBranches": [
-        "main",
-        "main"
-    ] "gitlens.advanced.blame.customArguments": null
+            "main",
+            "main"
+    "gitlens.advanced.blame.customArguments": null
 }githubPullRequests
 gitlens.confirmSync
