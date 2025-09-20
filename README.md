@@ -1,3 +1,3 @@
-
+calorie-crushing kickboxing and empowering strength + kettlebell training, to restorative yoga and tailored private coaching, we’ve got everything you need to succeed. Plus, our nutrition guidance ensures your hard work in the gym pays off beyond the mat. 💪 No matter your starting point, our expert coaches will guide you step-by-step so you feel confident, motivated, and unstoppable. 🌟 What truly sets us apart? Our incredible community. You’ll never feel alone here
 
           ŶAH3  '🎮![image]
