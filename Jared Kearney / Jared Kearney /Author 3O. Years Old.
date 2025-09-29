@@ -1,23 +1,69 @@
 CHIME
-.circleci/config.yml
+.#!/usr/bin/env python3
+import sys
+import os
+
+search_for = sys.argv[1]
+path = sys.argv[2]
+http_path = sys.argv[3]
+template_input = sys.argv[4]
+output = sys.argv[5]
+
+files = os.listdir(path)
+files.sort()
+
+tmp = ""
+
+	for f in files:
+    if not os.path.isdir(f):
+	        tmp += f"- [{f}]({http_path}{f})\n"
+
+
+with open(template_input, "r") as file1:
+    l8 = file1.read()
+
+with open(output, 'w') as filecircleci/config.yml
 
   "name": "kearney",
-  "version": "1.0.0",
+  "(version": "1.0.0",
   "description": "A project for Kearney application.",
   "main": "src/main.ts",
   "scripts": {
     "build": "tsc",
     "start": "node dist/main.js",
     "test": "echo \"Error: no test specified\" && exit 1"
-  },
+	  },
   "dependencies": {},
   "devDependencies": {
     "typescript": "^4.0.0"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/yourusername/kearney.git"
+		    "url": "https://github.com/yourusername/kearney.git"
   },
-  "author": "Your Name",
+  "(: "#!/usr/bin/env python3
+import sys
+import os
+
+search_for = sys.argv[1]
+path = sys.argv[2]
+http_path = sys.argv[3]
+template_input = sys.argv[4]
+output = sys.argv[5]
+
+files = os.listdir(path)
+files.sort() 
+
+	tmp = "" file •
+
+for f in files:
+    if not os.path.isdir(f):
+        tmp += f"- [{f}]({http_path}{f})\n"
+	
+
+with open(template_input, "r") as file1:
+    l = file1.read()
+
+with open(output, 'w') as fileYour Name",
   "license": "MIT"
 df31fb1eba26e505a44982db30cdf873fa7a8ba2
